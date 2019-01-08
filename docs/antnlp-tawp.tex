@@ -1,0 +1,82 @@
+
+
+%------ Preamble ------%
+% TODO:  add the conference/journal specific preambles from their templates
+%        modify the bibliographystyle at the end
+% Check: for anonymous submissions, author blocks SHOULD be empty
+% Notes: we've included a (minimal) set of packages (``my preamble''),
+%----------------------%
+
+
+%------ my preamble ------%
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath, amssymb, amsthm, amscd, amsfonts}
+\usepackage{IEEEtrantools}
+\usepackage{natbib}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+%------------------------%
+
+
+
+\title{A Template for Academic Writing Projects}
+\author{AntNLP}
+\date{}
+
+
+
+\begin{document}
+	\maketitle
+
+\begin{abstract}
+The abstract is a longer version of the title,
+and a shorter version of the introduction
+(which is a shorter version of the whole paper).
+A common abstract section contains
+\begin{itemize}
+    \item the research problem (one sentence),
+    \item the challenges (one or two sentences),
+    \item the approach (one or two sentences),
+    \item the contributions (one sentence),
+    \item experimental results (one or two sentences).
+\end{itemize}
+
+\end{abstract}
+
+\input{intro}
+\input{related_work}
+\input{approach}
+\input{experiments}
+
+
+\section{Conclusion}
+The conclusion may contains
+\begin{itemize}
+    \item the research problem (one sentence),
+    \item summaries of your approach (one or two sentences),
+    \item experimental results (one or two sentences),
+    \item possible improvments and future work (one or two sentences).
+\end{itemize}
+
+
+
+\section*{Acknowledgement}
+Please thank anyone who contributed to your work
+(discussed the idea and implementation, reading your drafts, providing data, 
+providing research founding etc.)
+This section should be empty during a double-blind review.
+
+\bibliography{antnlp-tawp}
+\bibliographystyle{plainnat}
+
+\end{document}
+

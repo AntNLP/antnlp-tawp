@@ -1,0 +1,75 @@
+\section{Approach}
+
+The approach section contains models, algorithms, system descriptions, and theorems.
+They are almost technical materials.
+However, it doesn't mean you only need to describe the formulations and models.
+Illustrating the rational behind them is more important.
+Why you design your model this way? 
+What are alternatives and why you don't choose them?
+What are advantages and drawbacks of your solution?
+At the same time, 
+it is important to echo the statements in the introduction section
+(i.e., challenges of the problem, advantages of your approach etc).
+Remember that
+\textbf{every section of your paper should tell a story}.
+
+The approach section could contains
+\begin{itemize}
+    \item a subsection on problem/task definition,
+    \item an (optional) subsection on preliminary models/algorithms,
+    \item subsections on your models.
+    \end{itemize}
+Usually, you need two key supporting components in the approach section, 
+symbols and figures.
+
+\subsection{Symbols}
+Please remember that 
+symbols are used to make the paper easier, rather than harder, to digest.
+Thus, the first principle on the symbol system is \textbf{``the simpler the better''}.
+For example,
+\begin{itemize}
+    \item \emph{when it's possible to use natural language, 
+        you may prefer not to use symbols. }
+        For example, 
+        ``if a word is not in the vocabulary'' is better than
+        ``if $w \notin V$''.
+    \item \emph{when it's possible to reuse an existing symbol, don't define a new symbol.}
+        For example, if a sentence is denoted by $s$, 
+        you may use $|s|$ to denote its length rather than a new symbol $n$.
+        If the ground truth class label is $y$, you would prefer $y'$, 
+        rather than a new notation $z$, to represent other class labels.
+\end{itemize}
+
+A good symbol system has three properties,
+\begin{itemize}
+    \item \textbf{Clear}. The meaning of every notation should be defined, 
+        and there should be no conflict/ambiguous usage. Common mistakes include 
+        \begin{itemize}
+            \item using one notation to represent different things 
+                (e.g., $w$ refers to both a word and a weight vector),
+            \item using notations without definition,
+            \item defining a notation but never use it,
+            \item using inconsistent typesetting (e.g., $w$ or $\mathbf{w}$).
+        \end{itemize}
+    %In order to make a clear symbol system, you can maintain a table during your writing.
+    \item \textbf{Informative}. Like good variable names,
+        informative notations could make your reader's life easier. 
+        For example, the leading character is a good notation for naming an object 
+        (a \underline{s}entence $s$, a \underline{w}ord $w$, an \underline{ent}ity $ent$).
+        You may also consider relations among different notations
+        (e.g., using coherent symbols for related objects (``a vector $v$ in a set $V$'')).
+    \item \textbf{Conventional}. Commonly, upper case letters represent sets, matrices, 
+        and lower case letters represents scalars, indices. Following the convention
+        may reduce the risk of misunderstanding.
+        Meanings of some notations may also have strong prior.
+        For example, ``$d, \delta, \Delta$'' usually imply ``differences'', and
+        ``$z$'' usually stands for unobserved variables in inference models.
+\end{itemize}
+
+\subsection{Figures}
+Please make figures accurate, consistent with texts, and beautiful.
+
+
+%footnotes and paratheses
+
+

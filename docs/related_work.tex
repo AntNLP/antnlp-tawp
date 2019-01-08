@@ -1,0 +1,54 @@
+\section{Related Work}
+
+The related work section, which usually has an underestimated importance,
+is not simply a bunch of citations and loosely organized descriptions.
+A well-written related work gives plenty of insights 
+on what have happened in the field.
+For experts, it should reveal key technical differences 
+between your solution and prior efforts.
+For newcomers,
+it should tell a brief story on the background 
+and connections with other tasks.
+
+One common practice is to organize related work into different groups.  
+You may consider
+\begin{itemize}
+    \item different definitions of the problem 
+    (e.g., for reading comprehension tasks, there are
+     cloze test, multiple choice and directly extracting answer spans).
+    \item different models
+    (e.g., pipeline/joint model, fully/weakly supervised,
+     local/global model, domain specific/independent...).
+    \item different key components 
+    (e.g., w/o external knowledge, w/o specific preprocessing...).
+\end{itemize}
+Instead of giving a thorough survey, 
+you shall focus on those work closely related to your paper. 
+For example, if your approach is supervised,
+you may emphasize related supervised models,
+and briefly mention (or just ignore) unsupervised/semi-supervised methods.
+Again, a coarse-to-fine strategy could be applied:
+you can first decide the groups, then list important papers in each group,
+and then describe individual papers.
+
+
+A final remark on writing related work is the usage of \texttt{citet} and 
+\texttt{citep}
+\footnote{In package natbib}.
+We suggest that instead of 
+\begin{quote}
+\citep{miwa-sasaki:2014:EMNLP2014} proposes a joint model...
+\end{quote}
+you use
+\begin{quote}
+\citet{miwa-sasaki:2014:EMNLP2014} propose a joint model...
+\end{quote}
+One correct usage of \texttt{citep} is 
+\begin{quote}
+We compare our model with the joint model proposed in 
+\citep{miwa-sasaki:2014:EMNLP2014}.
+\end{quote}
+
+
+
+
