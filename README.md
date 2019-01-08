@@ -1,4 +1,4 @@
-#A Template for Academic Writing Projects
+# A Template for Academic Writing Projects
 
 The repository contains a template for writing NLP/ML papers (using latex).
 By no mean one could write a great article by filling a template,
@@ -11,7 +11,7 @@ a workflow for a new writing project,
 and a flavor of using latex packages.
 
 
-##Files and Directories
+## Files and Directories
 
 Suppose your project's name is "antnlp-tawp".
 - `antnlp-tawp/docs`: your latex source files. We use `\input` commands in the main tex file `antnlp-tawp.tex` 
@@ -24,7 +24,7 @@ Instead of "fig1.pdf, fig2.pdf, paper.tex, my-paper.tex"
 we suggest naming the files properly (e.g., "pr-curve.pdf", "inorder-dep-parsing.tex").
 
 
-##A Workflow
+## A Workflow
 
 When you start a new paper, we suggest going with the following steps
 1. list the motivations (e.g., problem importance/challenges) in the _introduction section_. 
@@ -39,7 +39,7 @@ It helps you to build a complete picture of your paper.
 
 The workflow should starts at least 1 month before your deadline.
 
-##Other Suggestions
+## Other Suggestions
 
 - latex software: texlive. To be friendly to unicodes, we recommend compiling with xelatex.
 - use git
