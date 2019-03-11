@@ -41,11 +41,12 @@ The workflow should starts at least 1 month before your deadline.
 
 ## Other Suggestions
 
-- latex software: texlive. To be friendly to unicodes, we recommend compiling with xelatex.
+- latex software: texlive. To be friendly to unicodes, we recommend compiling with xelatex. 
 - use git
 - latex packages
+    - .tex files: add a line break for each sentence (or clauses and long phrases).  Don't worry about the formatting, unless you adding an empty line, latex will automatically wrap them into one paragraph in the compiled pdf. Short sentences are prefered both for experssing your idea and review.
     - equations: `IEEEeqnarray` package 
-    - tables: avoid vertical lines
+    - tables: avoid vertical lines. Usually, `\toprule`, `\midrule` and `\bottomrule` are  enough.
 - figures
     - Mac: keynote + LaTeXiT
     - Windows: ppt + kLatexFormula
