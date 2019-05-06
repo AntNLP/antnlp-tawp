@@ -43,14 +43,24 @@ The workflow should starts at least 1 month before your deadline.
 
 - latex software: texlive. To be friendly to unicodes, we recommend compiling with xelatex. 
 - use git
+- latex source files
+    - add a line break for each sentence (or clauses and long phrases). 
+      Don't worry about the formatting, unless you adding an empty line, 
+      latex will automatically wrap them into one paragraph in the compiled pdf. 
+      Short sentences are prefered both for experssing your idea and reviewing.
 - latex packages
-    - .tex files: add a line break for each sentence (or clauses and long phrases).  Don't worry about the formatting, unless you adding an empty line, latex will automatically wrap them into one paragraph in the compiled pdf. Short sentences are prefered both for experssing your idea and reviewing.
     - equations: `IEEEeqnarray` package 
     - tables: avoid vertical lines. Usually, `\toprule`, `\midrule` and `\bottomrule` are  enough.
 - figures
-    - Mac: keynote + LaTeXiT
-    - Windows: ppt + kLatexFormula
-    - Linux: wps+`images/latex2emf.py` (a linux version of  kLatexFormula is available.
-      However, the current version of linux wps can not directly import emf file from clipboard.
-      We still need to do the importing job manually.)
+    - make sure to include vector graphics (pdf(recommended), eps, svg) in your final paper, rather than jpg, png, bmp.
+    - to crop blank margin of a pdf, try `pdfcrop` in texlive.
+    - figures with latex symbols and equations
+        - Mac: keynote + LaTeXiT
+        - Windows: ppt + kLatexFormula
+        - Linux: wps+`images/latex2emf.py` (a linux version of  kLatexFormula is available.
+          However, the current version of linux wps can not directly import emf file from clipboard.
+          We still need to do the importing job manually.)
+    - or you can try matplotlib (be sure that ticklabels, annotations, legend, etc 
+     are in proper font size (the default setting is usually too small))
+    - even tikz (use additional .tkz file to place your tikz figure source file, rather than in the main tex)
 
