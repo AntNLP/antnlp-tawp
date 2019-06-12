@@ -10,6 +10,11 @@ In the template, we try to give a detailed todo list for each paper section
 a workflow for a new writing project,
 and a flavor of using latex.
 
+## As a Template Repository
+
+We suggest using github repos to manage tex files. 
+To start your own projects from this template, click `Use this template` (see [creating a repo from a template](https://help.github.com/en/articles/creating-a-repository-from-a-template)).
+
 
 ## Files and Directories
 
@@ -42,7 +47,6 @@ The workflow should starts at least 1 month before your deadline.
 ## Other Suggestions
 
 - latex software: texlive. To be friendly to unicodes, we recommend compiling with xelatex. 
-- use git
 - latex source files
     - add a line break for each sentence (or clauses and long phrases). 
       Don't worry about the formatting, unless you adding an empty line, 
